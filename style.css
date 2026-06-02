@@ -133,6 +133,7 @@ nav a:hover {
   flex-wrap: wrap;
   gap: 12px;
   margin-top: 30px;
+  width: 100%;
 }
 
 .skills-list span {
@@ -308,4 +309,44 @@ footer {
   font-weight: 300;
   margin-bottom: 20px;
   letter-spacing: 2px;
+}
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.hero-text {
+  flex: 1;
+  text-align: left;
+}
+
+.headshot {
+  width: 350px;
+  height: auto;
+  border-radius: 12px; /* optional slightly rounded corners */
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+}
+.hero-text {
+  max-width: 600px;
+}
+
+.hero-text h1,
+.hero-text h2,
+.hero-text p {
+  text-align: left;
 }

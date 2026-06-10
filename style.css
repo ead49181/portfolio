@@ -211,18 +211,20 @@ nav a:hover {
 #contact {
   padding: 80px 20px;
   text-align: center;
-  background: #fff;
+  background-image: url("images/pinkleopard.jpg");
+  background-size: cover;
+  background-position: center;
 }
 #contact h2 {
   font-family: "Playfair Display", serif;
   font-size: 36px;
-  color: #c2185b;
+  color: #ffff00;
   margin-bottom: 16px;
   letter-spacing: 2px;
 }
 #contact p {
   font-size: 16px;
-  color: #888;
+  color: #ffff00;
   margin-bottom: 30px;
 }
 #contact a.email-btn {
